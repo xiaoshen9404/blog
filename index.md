@@ -6,7 +6,7 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
 
-[link to posts]({% post_url  2022-07-16-creategithubpage  %})
+[link to posts]({% post_url  2022-07-13-creategithubpage  %})
 
 There should be whitespace between paragraphs.
 
