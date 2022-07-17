@@ -6,4 +6,4 @@ layout: default
 [Github pages build]({% post_url 2022-07-16-creategithubpage %})
 
 # AOSP
-[Github pages build]({% post_url 2022-07-17-androidbuild %})
+[AOSP build]({% post_url 2022-07-17-androidbuild %})
