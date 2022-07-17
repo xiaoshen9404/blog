@@ -58,7 +58,7 @@ git push
 ``` 
 
 #### 运行本地测试
-检查本地环境是否配置正确
+检查本地环境是否配置正确   
 1. **检查 ruby**
 ```
  ruby --version
@@ -85,8 +85,9 @@ bundle add webrick
 http://localhost:4000 
 ```
 
-## 添加帖子
-1. **在根目录 _posts 中添加文件**
+## 添加帖子   
+
+**在根目录 _posts 中添加文件**
 ```
 文件名格式: YEAR-MONTH-DAY-title<span>.md
 ```
