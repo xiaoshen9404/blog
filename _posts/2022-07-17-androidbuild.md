@@ -1,3 +1,12 @@
+---
+
+layout: default
+title: "AOSP"
+date: 2022-07-17 00:00:00 -0000
+categories: Environment
+
+---
+
 # 配套版本源码阅读
 https://cs.android.com/android/platform/superproject/+/android-8.0.0_r34:
 
@@ -120,3 +129,17 @@ SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", MODE="0666"
 sudo vim /etc/sysctl.conf
 fs.inotify.max_user_watches=524288
 sudo sysctl -p
+
+
+# 注意事项
+1. 内存最好>=16G
+2. 编译时最好指定核心数：m -j8 （使用8个核心，一定要小于等于给虚拟机分配的核心数），不指定很有可能编译失败
+3. 编译android 12 时，需要kotlin运行时
+
+
+
+
+```
+参考资料
+https://www.jianshu.com/p/baf7a71446e0
+```
